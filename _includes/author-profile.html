@@ -18,7 +18,7 @@
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">
       <li><div style="white-space: normal; margin-bottom: 1em; font-size:0.8em;">
-        M.S. student, expected to graduate in 2027.
+        M.S. student, expected to graduate in <strong>2027</strong>.
         <ul style="margin-top:0.4em; padding-left:1.1em; list-style: disc; line-height:1.5; white-space:normal; overflow-wrap:break-word; word-break:break-word;">
           <li>Spoken Dialogue Systems</li>
           <li>Audio Large Language Models</li>
@@ -35,10 +35,10 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email<br/><span style="padding-left:1.6em;">{{ author.email }}</span></a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email<br/><span style="padding-left:1.6em; font-size:0.8em;">{{ author.email }}</span></a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><a href="{{ author.wechat | relative_url }}" title="WeChat QR Code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat<br/><span style="padding-left:1.6em;">{{ author.wechat_id }}</span></a></li>
+        <li><a href="{{ author.wechat | relative_url }}" title="WeChat QR Code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat<br/><span style="padding-left:1.6em; font-size:0.8em;">{{ author.wechat_id }}</span></a></li>
       {% endif %}
     </ul>
     <div class="author__urls_sm">
