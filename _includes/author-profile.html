@@ -11,15 +11,15 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{{ author.name }}{% if author.cn_name %}<br>{{ author.cn_name }}{% endif %}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">
-      <li><div style="white-space: normal; margin-bottom: 1em;">
+      <li><div style="white-space: normal; margin-bottom: 1em; font-size:0.8em;">
         M.S. student, expected to graduate in 2027.
-        <ul style="margin-top:0.4em; padding-left:1.1em; list-style: disc; font-size:0.8em; line-height:1.5; white-space:normal; overflow-wrap:break-word; word-break:break-word;">
+        <ul style="margin-top:0.4em; padding-left:1.1em; list-style: disc; line-height:1.5; white-space:normal; overflow-wrap:break-word; word-break:break-word;">
           <li>Spoken Dialogue Systems</li>
           <li>Audio Large Language Models</li>
           <li>Audio-Visual Understanding</li>
