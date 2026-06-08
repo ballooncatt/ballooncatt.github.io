@@ -20,5 +20,6 @@
     <li><strong>2025.01</strong>: <span class="emoji">🎉🎉</span> 1 paper (<strong>major author</strong>) is accepted by <a href="https://iclr.cc/" target="_blank">ICLR 2025</a>!</li>
     <li><strong>2024.07</strong>: <span class="emoji">🎉🎉</span> 1 paper (<strong>first author, Oral</strong>) and 1 paper (<strong>co-first author</strong>) are accepted by <a href="https://2024.acmmm.org/" target="_blank">ACM MM 2024</a>!</li>
     <li><strong>2024.07</strong>: I start my internship at <strong>Meituan</strong>, Financial Services Platform.</li>
+    <li><strong>2024.06</strong>: <span class="emoji">🎓</span> I receive my B.E. degree from Shandong University and join Zhejiang University as a master's student.</li>
   </ul>
 </div>

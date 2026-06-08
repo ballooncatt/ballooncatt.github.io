@@ -17,9 +17,14 @@
 
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
+      <li><div style="white-space: normal; margin-bottom: 1em;">
+        M.S. student, expected to graduate in 2027.
+        <ul style="margin-top:0.4em; padding-left:1.1em; list-style: disc;">
+          <li>Spoken Dialogue Systems</li>
+          <li>Audio Large Language Models</li>
+          <li>Audio-Visual Understanding</li>
+        </ul>
+      </div></li>
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}

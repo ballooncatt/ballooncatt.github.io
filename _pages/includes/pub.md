@@ -36,9 +36,10 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-text' markdown="1" style="max-width:100%; padding-left:0;">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIP</div><img src='images/models/TIP/imp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- <span class="badge" style="background:#268bd2;color:#fff;padding:2px 8px;border-radius:4px;">IEEE TIP</span> &nbsp; [Emphasizing Domain Differences through Interactive-Augmented Prompts in Continual Audio-Visual Speech Recognition](https://ieeexplore.ieee.org/document/11481589) **Dongjie Fu**, Xize Cheng, Jingyuan Chen, Tao Jin, Zhongfei Zhang **IEEE TIP (First Author)**
+- [Emphasizing Domain Differences through Interactive-Augmented Prompts in Continual Audio-Visual Speech Recognition](https://ieeexplore.ieee.org/document/11481589) **Dongjie Fu**, Xize Cheng, Jingyuan Chen, Tao Jin, Zhongfei Zhang **IEEE TIP (First Author)**
 
   [**Paper**](https://ieeexplore.ieee.org/document/11481589)
 
@@ -53,7 +54,7 @@
 
 ## I. Spoken Dialogue Systems & Audio LLMs
 
-- ``Under Review`` Character Beyond Speech: Leveraging Role-Playing Evaluation in Large Audio Language Models via Reinforcement Learning. **Dongjie Fu**, et al. *(ACM MM 2026 submission, First Author)*
+- ``Under Review`` [Character Beyond Speech: Leveraging Role-Playing Evaluation in Large Audio Language Models via Reinforcement Learning.](https://arxiv.org/abs/2604.13804) **Dongjie Fu**, et al. *(ACM MM 2026 submission, First Author)*
 
 - ``EMNLP2025`` [PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue.](https://aclanthology.org/2025.emnlp-main.1492/) **Dongjie Fu**\*, Xize Cheng\*, Linjun Li, Xiaoda Yang, Lujia Yang, Tao Jin. *(First Author)*
 
@@ -67,7 +68,7 @@
 
 - ``ICLR2025`` [VoxDialogue: Can Spoken Dialogue Systems Understand Information Beyond Words?](https://openreview.net/forum?id=vbmSSIhKAM) Xize Cheng, **Dongjie Fu**, et al. *(Major Author)*
 
-- ``Interspeech2026`` Audio-NSP: Data-Centric Semi-Autoregressive Generation for Large Audio-Language Models. **Dongjie Fu**, et al. *(Co-first Author)*
+- ``Interspeech2026`` Audio-NSP: Data-Centric Semi-Autoregressive Generation for Large Audio-Language Models. Liang Cao, Xize Cheng, **Dongjie Fu**, et al. *(Co-first Author)*
 
 ## II. Audio-Visual Understanding
 
@@ -79,7 +80,7 @@
 
 - ``ACMMM2024`` [SyncTalklip: Highly Synchronized Lip-Readable Speaker Generation with Multi-Task Learning.](https://openreview.net/pdf?id=Hr5cO79Ajw) Xiaoda Yang\*, Xize Cheng\*, **Dongjie Fu**, Minghui Fang, Jialong Zuo, Shengpeng Ji, Zhou Zhao, Tao Jin. *(Co-first Author)*
 
-- ``ICLR2026`` [MARS-Sep: Multimodal-Aligned Reinforced Sound Separation.](https://arxiv.org/abs/2510.10509) **Dongjie Fu**, et al. *(Major Author)*
+- ``ICLR2026`` [MARS-Sep: Multimodal-Aligned Reinforced Sound Separation.](https://arxiv.org/abs/2510.10509) Zihan Zhang, Xize Cheng, **Dongjie Fu**, et al. *(Major Author)*
 
 ## III. Recommendation & Generation
 
