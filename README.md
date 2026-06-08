@@ -1,67 +1,39 @@
-# ballooncatt.github.io
+# Dongjie Fu's Academic Homepage
 
-Personal academic homepage of **Dongjie Fu (付栋杰)** — live at <https://ballooncatt.github.io>.
+Personal academic homepage of **Dongjie Fu (付栋杰)**, M.S. student at the School of Software Technology, Zhejiang University.
 
-## 📁 目录结构
+Live site: https://ballooncatt.github.io
 
-```
-homepage/
-├── index.html                 主页（单页，所有内容都在这里）
-├── deploy.sh                  一键推送到 GitHub 的脚本
-├── README.md
-└── assets/
-    ├── style.css              所有样式
-    ├── avatar.svg             默认头像（红底白字 "D"）
-    ├── avatar.jpg             ← 把你的真人照片放这里（可选）
-    ├── favicon.svg            网页 icon
-    └── papers/                ← 论文模型图放这里
-        ├── README.md          说明每张图叫什么文件名
-        ├── pachat.png         ← 自己截图后放进来
-        ├── omnichat.png
-        └── ...
-```
+## Built With
 
-## 🚀 部署（推到 GitHub Pages）
+This site is built with [Jekyll](https://jekyllrb.com/) and adapted from the academic homepage template by [Xize Cheng (Exgc)](https://github.com/Exgc/exgc.github.io), which itself is based on [AcademicPages](https://github.com/academicpages/academicpages.github.io).
 
-在 `homepage/` 目录里运行：
+## Local Development
 
 ```bash
-bash deploy.sh "init homepage"
+bundle install
+bundle exec jekyll serve
 ```
 
-脚本会自动：
-1. 初始化 git 仓库
-2. 关联 `https://github.com/ballooncatt/ballooncatt.github.io.git`
-3. 拉取远端的初始 README 防止冲突
-4. 提交所有文件并推送到 `main` 分支
+Then open http://localhost:4000.
 
-推送完成后：
-- 去 **GitHub → Settings → Pages → Source: Deploy from branch → Branch: main / (root) → Save**
-- 等 1–2 分钟，访问 <https://ballooncatt.github.io>
+## Content Structure
 
-## 🖼️ 添加论文模型图
+All page content lives in `_pages/includes/`:
 
-1. 打开论文 PDF，找到 Figure 1（或最能体现模型架构的图）
-2. macOS：`Cmd + Shift + 4` 截图
-3. 按 `assets/papers/README.md` 里的对应表重命名
-4. 拖进 `assets/papers/` 目录
-5. 再次运行 `bash deploy.sh "add paper figures"`
+- `intro.md` — About Me
+- `news.md` — News
+- `pub.md` — Publications (highlighted papers + full list)
+- `edu.md` — Educations
+- `award.md` — Honors and Awards
+- `work.md` — Internships & Projects
 
-**找不到图也没关系** — 页面会自动 fallback 成彩色占位块，不会报错。
+Site-wide settings (name, avatar, email, social links) are in `_config.yml`.
 
-## 🛠 本地预览
+Paper architecture figures are stored under `images/models/`.
 
-```bash
-cd homepage
-python3 -m http.server 8000
-```
+## Google Scholar Citation Badge (optional)
 
-然后浏览器打开 <http://localhost:8000>
-
-## ✏️ 修改内容
-
-整站只有一个文件：`index.html`。
-- 改 News → 找 `id="news"` 区块
-- 改 Publications → 找 `id="publications"` 区块
-- 改实习 → 找 `id="internships"` 区块
-- 改颜色字体 → 改 `assets/style.css` 里 `:root` 的 CSS 变量
+To enable the auto-updating citation stats, add a repository secret
+`GOOGLE_SCHOLAR_ID` = `nLll-OIAAAAJ` in **Settings → Secrets and variables → Actions**.
+The GitHub Action will then update the citation data daily.
