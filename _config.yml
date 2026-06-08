@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Dongjie Fu(付栋杰)"
-  avatar           : "images/profile.png"
+  avatar           : "images/profile.jpg"
   bio              : "Zhejiang University"
   location         : "Ningbo, China"
   employer         :
@@ -38,6 +38,8 @@ author:
   facebook         :
   foursquare       :
   github           : ballooncatt # e.g., "github username"
+  wechat           : "images/wechat.jpg"
+  wechat_id        : "18635515321"
   google_plus      :
   keybase          :
   instagram        :
