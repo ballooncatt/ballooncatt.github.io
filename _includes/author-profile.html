@@ -30,10 +30,10 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email<br/><span style="padding-left:1.6em;">{{ author.email }}</span></a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><a href="{{ author.wechat | relative_url }}" title="WeChat QR Code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat_id }}</a></li>
+        <li><a href="{{ author.wechat | relative_url }}" title="WeChat QR Code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat<br/><span style="padding-left:1.6em;">{{ author.wechat_id }}</span></a></li>
       {% endif %}
     </ul>
     <div class="author__urls_sm">
