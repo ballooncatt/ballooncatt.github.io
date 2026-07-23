@@ -3,6 +3,19 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/models/EMNLP2025/pachat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/models/ACMMM2026/character.svg' alt="RoleJudge framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- [Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2604.13804) **Dongjie Fu**\*, Fangming Feng\*, Xize Cheng\*, Linjun Li, Zhou Zhao, Tao Jin **ACM MM 2026 (First Author)**
+
+  [**Paper**](https://arxiv.org/abs/2604.13804)
+
+  We propose **RoleJudge**, a multimodal and multidimensional evaluator for voice role-playing agents, and build **RoleChat**, the first reasoning-enhanced voice role-playing evaluation dataset. A multi-stage SFT-RL framework with **Standard Alignment** improves character-alignment evaluation while mitigating reward misalignment.
+
+</div>
+</div>
+
+
 - [PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue](https://aclanthology.org/2025.emnlp-main.1492/) **Dongjie Fu**\*, Xize Cheng\*, Linjun Li, Xiaoda Yang, Lujia Yang, Tao Jin **EMNLP 2025 (First Author)**
 
   [**Demo**](https://persona-dialogue.github.io/) \| [**Paper**](https://aclanthology.org/2025.emnlp-main.1492/)
@@ -54,7 +67,11 @@
 
 ## I. Spoken Dialogue Systems & Audio LLMs
 
-- ``Under Review`` [Character Beyond Speech: Leveraging Role-Playing Evaluation in Large Audio Language Models via Reinforcement Learning.](https://arxiv.org/abs/2604.13804) **Dongjie Fu**, et al. *(ACM MM 2026 submission, First Author)*
+- ``Under Review`` X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment. **Dongjie Fu**, et al. *(EMNLP 2026 submission, First Author)*
+
+- ``ACMMM2026`` [Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning.](https://arxiv.org/abs/2604.13804) **Dongjie Fu**\*, Fangming Feng\*, Xize Cheng\*, Linjun Li, Zhou Zhao, Tao Jin. *(First Author)*
+
+- ``ACMMM2026`` VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference. Wenxu Jia\*, **Dongjie Fu**\*, Xize Cheng, Fangming Feng, Linjun Li, Wenshi Chen, Yingming Li, Zhou Zhao, Tao Jin. *(Co-first Author)*
 
 - ``EMNLP2025`` [PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue.](https://aclanthology.org/2025.emnlp-main.1492/) **Dongjie Fu**\*, Xize Cheng\*, Linjun Li, Xiaoda Yang, Lujia Yang, Tao Jin. *(First Author)*
 
