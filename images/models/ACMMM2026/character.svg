@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1048" height="613" viewBox="0 0 1048 613" role="img" aria-labelledby="title desc">
+  <title id="title">RoleJudge architecture</title>
+  <desc id="desc">RoleChat data construction, cold-start supervised fine-tuning, and reinforcement learning with standards alignment for RoleJudge.</desc>
+  <defs>
+    <marker id="arrow-black" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9 Z" fill="#a9aaa8" stroke="#a9aaa8"/>
+    </marker>
+    <style>
+      .ink{stroke:#475875;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
+      .label{font-family:"Comic Sans MS","Chalkboard SE","Bradley Hand",cursive;fill:#080808;font-size:22px;font-weight:600}
+      .small{font-family:"Comic Sans MS","Chalkboard SE","Bradley Hand",cursive;fill:#080808;font-size:17px;font-weight:500}
+      .tiny{font-family:"Comic Sans MS","Chalkboard SE","Bradley Hand",cursive;fill:#080808;font-size:15px;font-weight:500}
+      .title{font-family:"Comic Sans MS","Chalkboard SE","Bradley Hand",cursive;fill:#080808;font-size:27px;font-weight:700}
+      .arrow{fill:none;stroke:#111111;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-black)}
+      .gray-arrow{fill:none;stroke:#a9aaa8;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-gray)}
+    </style>
+  </defs>
+
+  <rect width="1048" height="613" fill="#ffffff"/>
+
+  <rect x="8" y="18" width="521" height="231" rx="38" fill="#ffffff" class="ink"/>
+  <text x="27" y="52" class="title">RoleChat</text>
+
+  <rect x="52" y="106" width="57" height="73" rx="10" fill="#dce4f3" class="ink"/>
+  <text x="81" y="208" class="small" text-anchor="middle">Character</text>
+  <text x="81" y="234" class="small" text-anchor="middle">profile</text>
+
+  <g>
+    <rect x="143" y="92" width="71" height="25" fill="#c6cfdb" class="ink"/>
+    <rect x="143" y="127" width="71" height="24" fill="#c6cfdb" class="ink"/>
+    <rect x="143" y="162" width="71" height="24" fill="#c6cfdb" class="ink"/>
+    <text x="179" y="226" class="small" text-anchor="middle">History</text>
+  </g>
+
+  <text x="234" y="44" class="tiny" text-anchor="middle">Multi</text>
+  <text x="234" y="62" class="tiny" text-anchor="middle">Samples</text>
+  <path d="M207 81 C221 65 244 65 258 78 L266 72 L263 91 L244 88 L251 83 C241 75 224 75 215 84 Z" fill="#a9aaa8"/>
+
+  <g>
+    <rect x="256" y="101" width="72" height="22" fill="#fff0df" class="ink"/>
+    <rect x="268" y="94" width="71" height="22" fill="#fff0df" class="ink"/>
+    <rect x="278" y="87" width="71" height="22" fill="#fff0df" class="ink"/>
+    <rect x="256" y="143" width="72" height="22" fill="#fff0df" class="ink"/>
+    <rect x="268" y="136" width="71" height="22" fill="#fff0df" class="ink"/>
+    <rect x="278" y="129" width="71" height="22" fill="#fff0df" class="ink"/>
+    <rect x="256" y="185" width="72" height="22" fill="#fff0df" class="ink"/>
+    <rect x="268" y="178" width="71" height="22" fill="#fff0df" class="ink"/>
+    <rect x="278" y="171" width="71" height="22" fill="#fff0df" class="ink"/>
+    <text x="303" y="229" class="small" text-anchor="middle">Response</text>
+  </g>
+
+  <text x="366" y="44" class="tiny" text-anchor="middle">Multidimensional</text>
+  <text x="366" y="62" class="tiny" text-anchor="middle">Evaluation</text>
+  <path d="M339 81 C353 65 376 65 390 78 L398 72 L395 91 L376 88 L383 83 C373 75 356 75 347 84 Z" fill="#a9aaa8"/>
+
+  <g>
+    <rect x="402" y="90" width="72" height="20" fill="#dcebc9" class="ink"/>
+    <line x1="456" y1="90" x2="456" y2="110" class="ink"/>
+    <rect x="402" y="112" width="72" height="20" fill="#dcebc9" class="ink"/>
+    <line x1="456" y1="112" x2="456" y2="132" class="ink"/>
+    <rect x="402" y="134" width="72" height="20" fill="#dcebc9" class="ink"/>
+    <line x1="456" y1="134" x2="456" y2="154" class="ink"/>
+    <rect x="402" y="156" width="72" height="20" fill="#dcebc9" class="ink"/>
+    <line x1="456" y1="156" x2="456" y2="176" class="ink"/>
+    <rect x="402" y="178" width="72" height="20" fill="#dcebc9" class="ink"/>
+    <line x1="456" y1="178" x2="456" y2="198" class="ink"/>
+    <text x="438" y="226" class="small" text-anchor="middle">CoT and Scores</text>
+  </g>
+
+  <rect x="540" y="18" width="387" height="231" rx="38" fill="#ffffff" class="ink"/>
+  <text x="570" y="52" class="title">Cold Start SFT</text>
+  <rect x="586" y="125" width="286" height="43" rx="9" fill="#eadedf" class="ink"/>
+  <text x="729" y="155" class="label" text-anchor="middle">Qwen2-Audio</text>
+
+  <g>
+    <rect x="599" y="194" width="19" height="32" rx="4" fill="#dbe4f4" class="ink"/>
+    <rect x="630" y="194" width="19" height="32" rx="4" fill="#c6cfdb" class="ink"/>
+    <rect x="661" y="194" width="19" height="32" rx="4" fill="#fff0df" class="ink"/>
+    <path d="M609 193 L609 174" class="arrow"/>
+    <path d="M640 193 L640 174" class="arrow"/>
+    <path d="M671 193 L671 174" class="arrow"/>
+  </g>
+  <g>
+    <rect x="777" y="71" width="19" height="32" rx="4" fill="#dcebc9" class="ink"/>
+    <rect x="808" y="71" width="19" height="32" rx="4" fill="#e6f0da" class="ink"/>
+    <rect x="839" y="71" width="19" height="32" rx="4" fill="#bed79e" class="ink"/>
+    <path d="M787 124 L787 105" class="arrow"/>
+    <path d="M818 124 L818 105" class="arrow"/>
+    <path d="M849 124 L849 105" class="arrow"/>
+  </g>
+
+  <g transform="translate(875 151)">
+    <path d="M0 34 C-3 23 4 16 10 10 C13 17 18 14 18 3 C31 14 34 24 31 34 C28 46 19 51 12 50 C3 49 -2 43 0 34 Z" fill="#eb584d"/>
+    <path d="M11 39 C9 33 13 28 17 24 C18 30 23 29 23 24 C28 31 27 39 21 43 C17 46 13 44 11 39 Z" fill="#ffffff"/>
+  </g>
+
+  <path d="M932 94 C948 94 951 111 951 129 L951 181 C951 210 958 221 970 229 C958 237 951 248 951 277 L951 328 C951 346 948 364 932 364" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="978" y="222" class="title">Role</text>
+  <text x="978" y="253" class="title">Judge</text>
+
+  <rect x="8" y="266" width="920" height="323" rx="38" fill="#ffffff" class="ink"/>
+  <text x="31" y="309" class="title">Reinforcement Learning with Standards Alignment</text>
+
+  <g>
+    <rect x="36" y="327" width="70" height="18" rx="3" fill="#dce4f3" class="ink"/>
+    <rect x="36" y="351" width="70" height="18" rx="3" fill="#c6cfdb" class="ink"/>
+    <rect x="30" y="389" width="72" height="17" fill="#fff0df" class="ink"/>
+    <rect x="41" y="382" width="72" height="17" fill="#fff0df" class="ink"/>
+    <rect x="52" y="375" width="72" height="17" fill="#fff0df" class="ink"/>
+    <path d="M73 427 L73 473" class="gray-arrow"/>
+  </g>
+
+  <g>
+    <rect x="36" y="481" width="33" height="25" rx="5" fill="#dce4f3" class="ink"/>
+    <rect x="68" y="481" width="34" height="25" fill="#c6cfdb" class="ink"/>
+    <rect x="101" y="481" width="34" height="25" fill="#fff0df" class="ink"/>
+    <path d="M137 493 L178 493" class="arrow"/>
+    <rect x="36" y="529" width="33" height="24" rx="5" fill="#dce4f3" class="ink"/>
+    <rect x="68" y="529" width="34" height="24" fill="#c6cfdb" class="ink"/>
+    <rect x="101" y="529" width="34" height="24" fill="#fff0df" class="ink"/>
+    <path d="M137 541 L178 541" class="arrow"/>
+  </g>
+
+  <g transform="translate(135 541)">
+    <path d="M0 -13 L5 -3 L16 -2 L8 6 L10 17 L0 12 L-10 17 L-8 6 L-16 -2 L-5 -3 Z" fill="#ed5b53"/>
+  </g>
+
+  <rect x="184" y="354" width="143" height="73" rx="10" fill="#decdd4" class="ink"/>
+  <text x="256" y="390" class="small" text-anchor="middle">Reference</text>
+  <text x="256" y="413" class="small" text-anchor="middle">Model</text>
+  <g transform="translate(331 399)" stroke="#80cfff" stroke-width="2.2" stroke-linecap="round">
+    <line x1="0" y1="-19" x2="0" y2="19"/><line x1="-16" y1="-10" x2="16" y2="10"/><line x1="-16" y1="10" x2="16" y2="-10"/>
+    <line x1="0" y1="-19" x2="-5" y2="-12"/><line x1="0" y1="-19" x2="5" y2="-12"/>
+    <line x1="0" y1="19" x2="-5" y2="12"/><line x1="0" y1="19" x2="5" y2="12"/>
+  </g>
+
+  <rect x="184" y="483" width="143" height="72" rx="10" fill="#decdd4" class="ink"/>
+  <text x="256" y="517" class="small" text-anchor="middle">Policy</text>
+  <text x="256" y="541" class="small" text-anchor="middle">Model</text>
+  <g transform="translate(329 518)">
+    <path d="M0 34 C-3 23 4 16 10 10 C13 17 18 14 18 3 C31 14 34 24 31 34 C28 46 19 51 12 50 C3 49 -2 43 0 34 Z" fill="#eb584d"/>
+    <path d="M11 39 C9 33 13 28 17 24 C18 30 23 29 23 24 C28 31 27 39 21 43 C17 46 13 44 11 39 Z" fill="#ffffff"/>
+  </g>
+
+  <path d="M256 428 L256 478" class="arrow"/>
+  <text x="279" y="462" class="small">KL</text>
+  <path d="M386 390 L329 390" class="arrow"/>
+
+  <path d="M329 494 L365 494 C376 494 381 486 391 480 C380 475 376 467 376 454 L376 394 C376 379 385 367 405 365" fill="none" stroke="#111111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M327 540 L408 540" class="arrow"/>
+
+  <g>
+    <rect x="419" y="386" width="57" height="35" rx="7" fill="#fff0b8" class="ink"/>
+    <rect x="432" y="376" width="57" height="35" rx="7" fill="#fff0b8" class="ink"/>
+    <rect x="444" y="365" width="57" height="35" rx="7" fill="#fff0b8" class="ink"/>
+    <text x="461" y="449" class="small" text-anchor="middle">ACC</text>
+    <text x="461" y="474" class="small" text-anchor="middle">Scores</text>
+    <path d="M503 389 L535 389" class="arrow"/>
+  </g>
+
+  <g>
+    <rect x="419" y="545" width="57" height="34" rx="7" fill="#fff0b8" class="ink"/>
+    <rect x="432" y="534" width="57" height="34" rx="7" fill="#fff0b8" class="ink"/>
+    <rect x="444" y="523" width="57" height="34" rx="7" fill="#fff0b8" class="ink"/>
+    <path d="M503 547 L535 547" class="arrow"/>
+  </g>
+
+  <rect x="542" y="365" width="121" height="199" rx="19" fill="#f2f3f5" class="ink"/>
+  <text x="603" y="397" class="small" text-anchor="middle">Reward</text>
+  <text x="603" y="421" class="small" text-anchor="middle">Computation</text>
+  <path d="M558 483 C571 467 587 468 598 487 C608 505 624 513 644 505" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+
+  <g>
+    <rect x="696" y="290" width="57" height="35" rx="7" fill="#fff0df" class="ink"/>
+    <rect x="708" y="279" width="57" height="35" rx="7" fill="#fff0df" class="ink"/>
+    <rect x="721" y="268" width="57" height="35" rx="7" fill="#fff0df" class="ink"/>
+    <text x="735" y="347" class="small" text-anchor="middle">Format</text>
+    <text x="735" y="371" class="small" text-anchor="middle">Reward</text>
+    <path d="M665 389 L693 389" class="arrow"/>
+  </g>
+
+  <g>
+    <rect x="696" y="407" width="57" height="35" rx="7" fill="#ffe59c" class="ink"/>
+    <rect x="708" y="396" width="57" height="35" rx="7" fill="#ffe59c" class="ink"/>
+    <rect x="721" y="385" width="57" height="35" rx="7" fill="#ffe59c" class="ink"/>
+    <text x="735" y="462" class="small" text-anchor="middle">ACC</text>
+    <text x="735" y="486" class="small" text-anchor="middle">Reward</text>
+  </g>
+
+  <g>
+    <rect x="706" y="534" width="55" height="36" rx="7" fill="#ffe59c" class="ink"/>
+    <path d="M665 548 L697 548" class="arrow"/>
+    <text x="682" y="579" class="small" text-anchor="middle">Avg.</text>
+    <g transform="translate(762 558)">
+      <path d="M0 -14 L5 -4 L16 -2 L8 6 L10 17 L0 12 L-10 17 L-8 6 L-16 -2 L-5 -4 Z" fill="#ed5b53"/>
+    </g>
+  </g>
+
+  <path d="M780 350 L809 350" class="gray-arrow"/>
+  <path d="M776 536 C797 521 805 493 810 454" class="gray-arrow"/>
+
+  <rect x="814" y="298" width="93" height="122" rx="18" fill="#f2f3f5" class="ink"/>
+  <text x="861" y="337" class="small" text-anchor="middle">Group</text>
+  <text x="861" y="361" class="small" text-anchor="middle">Compu-</text>
+  <text x="861" y="385" class="small" text-anchor="middle">tation</text>
+
+  <text x="849" y="491" class="small" text-anchor="middle">Scale</text>
+  <line x1="820" y1="560" x2="879" y2="560" stroke="#999999" stroke-width="1.2"/>
+  <line x1="849" y1="520" x2="849" y2="560" stroke="#999999" stroke-width="1.2"/>
+  <path d="M829 558 C840 555 843 549 846 535 C849 520 851 517 855 520 C860 525 862 543 866 553 C870 559 874 560 879 560" fill="none" stroke="#777777" stroke-width="1.2"/>
+
+  <g transform="translate(947 408)">
+    <path d="M0 34 C-3 23 4 16 10 10 C13 17 18 14 18 3 C31 14 34 24 31 34 C28 46 19 51 12 50 C3 49 -2 43 0 34 Z" fill="#eb584d"/>
+    <path d="M11 39 C9 33 13 28 17 24 C18 30 23 29 23 24 C28 31 27 39 21 43 C17 46 13 44 11 39 Z" fill="#ffffff"/>
+  </g>
+  <text x="963" y="454" class="small">Trainable</text>
+
+  <g transform="translate(947 490)" stroke="#80cfff" stroke-width="2.2" stroke-linecap="round">
+    <line x1="0" y1="-19" x2="0" y2="19"/><line x1="-16" y1="-10" x2="16" y2="10"/><line x1="-16" y1="10" x2="16" y2="-10"/>
+    <line x1="0" y1="-19" x2="-5" y2="-12"/><line x1="0" y1="-19" x2="5" y2="-12"/>
+    <line x1="0" y1="19" x2="-5" y2="12"/><line x1="0" y1="19" x2="5" y2="12"/>
+  </g>
+  <text x="963" y="515" class="small">Frozen</text>
+
+  <g transform="translate(947 548)">
+    <path d="M0 -15 L5 -5 L16 -3 L8 6 L10 18 L0 12 L-10 18 L-8 6 L-16 -3 L-5 -5 Z" fill="#ed5b53"/>
+  </g>
+  <text x="963" y="556" class="small">Standards</text>
+  <text x="963" y="583" class="small">Sample</text>
+</svg>
