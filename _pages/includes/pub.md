@@ -1,7 +1,5 @@
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/models/EMNLP2025/pachat.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/models/ACMMM2026/character.svg' alt="RoleJudge framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -14,6 +12,9 @@
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/models/EMNLP2025/pachat.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 
 - [PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue](https://aclanthology.org/2025.emnlp-main.1492/) **Dongjie Fu**\*, Xize Cheng\*, Linjun Li, Xiaoda Yang, Lujia Yang, Tao Jin **EMNLP 2025 (First Author)**
