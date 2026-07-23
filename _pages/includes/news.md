@@ -9,6 +9,7 @@
 
 <div class="scrollable">
   <ul>
+    <li><strong>2026.07</strong>: <span class="emoji">🎉🎉</span> 2 papers (1 <strong>first-author</strong> paper and 1 <strong>co-first-author</strong> paper) are accepted by <a href="https://2026.acmmm.org/" target="_blank">ACM MM 2026</a>!</li>
     <li><strong>2026.05</strong>: <span class="emoji">🎉🎉</span> 2 papers (<strong>co-first author</strong>) are accepted by <a href="https://www.interspeech2026.org/" target="_blank">Interspeech 2026</a>!</li>
     <li><strong>2026.04</strong>: <span class="emoji">🎉🎉</span> 1 paper (<strong>first author</strong>) is accepted by <a href="https://ieeexplore.ieee.org/document/11481589" target="_blank">IEEE TIP</a>!</li>
     <li><strong>2026.01</strong>: <span class="emoji">🎉🎉</span> 1 paper (<strong>co-first author</strong>) is accepted by <a href="https://2026.aclweb.org/" target="_blank">ACL 2026</a>!</li>
