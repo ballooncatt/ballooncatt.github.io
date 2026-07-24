@@ -2,8 +2,10 @@
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/models/EMNLP2026/x3opd_framework.svg' alt="X3-OPD framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, Tao Jin EMNLP 2026 Submission (First Author)
-  Paper
+- [X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment](https://arxiv.org/abs/2607.21550v1) **Dongjie Fu**, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, Tao Jin **EMNLP 2026 Submission (First Author)**
+  
+  [**Paper**](https://arxiv.org/abs/2607.21550v1)
+  
   We propose X³-OPD, a cross-modal on-policy distillation framework that transfers reasoning from a text teacher to an audio-language student by scoring the student's own audio-conditioned trajectories with matched textual inputs. Built on a 71.8K three-tier symmetric corpus spanning logical, audio-event, and prosody-aware dialogue reasoning, X³-OPD improves BIG Bench Audio from 87.9 to 93.6 (+5.7) while largely preserving out-of-domain capabilities.
 </div>
 </div>
@@ -12,7 +14,7 @@ X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Ali
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/models/ACMMM2026/character.svg' alt="RoleJudge framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- [Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2604.13804) **Dongjie Fu**\*, Fangming Feng\*, Xize Cheng\*, Linjun Li, Zhou Zhao, Tao Jin **ACM MM 2026 (First Author)**
+- [Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2604.13804) **Dongjie Fu**, Fangming Feng, Xize Cheng\*, Linjun Li, Zhou Zhao, Tao Jin **ACM MM 2026 (First Author)**
 
   [**Paper**](https://arxiv.org/abs/2604.13804)
 
@@ -25,7 +27,7 @@ X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Ali
 <div class='paper-box-text' markdown="1">
 
 
-- [PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue](https://aclanthology.org/2025.emnlp-main.1492/) **Dongjie Fu**\*, Xize Cheng\*, Linjun Li, Xiaoda Yang, Lujia Yang, Tao Jin **EMNLP 2025 (First Author)**
+- [PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue](https://aclanthology.org/2025.emnlp-main.1492/) **Dongjie Fu**, Xize Cheng, Linjun Li, Xiaoda Yang, Lujia Yang, Tao Jin **EMNLP 2025 (First Author)**
 
   [**Demo**](https://persona-dialogue.github.io/) \| [**Paper**](https://aclanthology.org/2025.emnlp-main.1492/)
 
@@ -49,7 +51,7 @@ X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Ali
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024 Oral</div><img src='images/models/ACMMM2024/pcd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- [Boosting Speech Recognition Robustness to Modality-Distortion with Contrast-Augmented Prompts](https://dl.acm.org/doi/abs/10.1145/3664647.3681347) **Dongjie Fu**\*, Xize Cheng\*, Xiaoda Yang, Hanting Wang, Zhou Zhao, Tao Jin **ACM MM 2024 (Oral, First Author)**
+- [Boosting Speech Recognition Robustness to Modality-Distortion with Contrast-Augmented Prompts](https://dl.acm.org/doi/abs/10.1145/3664647.3681347) **Dongjie Fu**, Xize Cheng, Xiaoda Yang, Hanting Wang, Zhou Zhao, Tao Jin **ACM MM 2024 (Oral, First Author)**
 
   [**Paper**](https://dl.acm.org/doi/abs/10.1145/3664647.3681347)
 
@@ -76,7 +78,7 @@ X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Ali
 
 ## I. Spoken Dialogue Systems & Audio LLMs
 
-- ``Under Review`` [X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment.](https://arxiv.org/abs/2607.21550v1) **Dongjie Fu**, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, Tao Jin. *(EMNLP 2026 submission, First Author)*
+- ``Under Review`` [X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment.](https://arxiv.org/abs/2607.21550v1) **Dongjie Fu**\*, Di Cao\*, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, Tao Jin. *(EMNLP 2026 submission, First Author)*
 
 - ``ACMMM2026`` [Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning.](https://arxiv.org/abs/2604.13804) **Dongjie Fu**\*, Fangming Feng\*, Xize Cheng\*, Linjun Li, Zhou Zhao, Tao Jin. *(First Author)*
 
