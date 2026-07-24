@@ -68,7 +68,7 @@
 
 ## I. Spoken Dialogue Systems & Audio LLMs
 
-- ``Under Review`` X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment. **Dongjie Fu**, et al. *(EMNLP 2026 submission, First Author)*
+- ``Under Review`` [X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment.](https://arxiv.org/abs/2607.21550v1) **Dongjie Fu**, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, Tao Jin. *(EMNLP 2026 submission, First Author)*
 
 - ``ACMMM2026`` [Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning.](https://arxiv.org/abs/2604.13804) **Dongjie Fu**\*, Fangming Feng\*, Xize Cheng\*, Linjun Li, Zhou Zhao, Tao Jin. *(First Author)*
 
@@ -100,7 +100,7 @@
 
 - ``ICLR2026`` [MARS-Sep: Multimodal-Aligned Reinforced Sound Separation.](https://arxiv.org/abs/2510.10509) Zihan Zhang, Xize Cheng, **Dongjie Fu**, et al. *(Major Author)*
 
-## III. Recommendation & Generation
+## III. Others
 
 - ``TOIS`` [Diversifying Sequential Recommendation with Retrospective and Prospective Transformers.](https://dl.acm.org/doi/10.1145/3653016) Chaoyu Shi, **Dongjie Fu**, et al. *(Co-first Author)*
 
