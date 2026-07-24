@@ -1,5 +1,13 @@
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/models/EMNLP2026/x3opd_framework.svg' alt="X3-OPD framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+X³-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, Tao Jin EMNLP 2026 Submission (First Author)
+  Paper
+  We propose X³-OPD, a cross-modal on-policy distillation framework that transfers reasoning from a text teacher to an audio-language student by scoring the student's own audio-conditioned trajectories with matched textual inputs. Built on a 71.8K three-tier symmetric corpus spanning logical, audio-event, and prosody-aware dialogue reasoning, X³-OPD improves BIG Bench Audio from 87.9 to 93.6 (+5.7) while largely preserving out-of-domain capabilities.
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/models/ACMMM2026/character.svg' alt="RoleJudge framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
